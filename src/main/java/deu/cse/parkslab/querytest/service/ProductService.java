@@ -1,2 +1,6 @@
-package deu.cse.parkslab.querytest.service;public interface ProductService {
+package deu.cse.parkslab.querytest.service;
+
+
+public interface ProductService{
+
 }

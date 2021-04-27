@@ -1,2 +1,4 @@
-package deu.cse.parkslab.querytest.service;public class ProductServiceImpl {
+package deu.cse.parkslab.querytest.service;
+
+public class ProductServiceImpl {
 }
