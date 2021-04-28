@@ -1,13 +1,16 @@
 package deu.cse.parkslab.querytest.repository;
 
 import deu.cse.parkslab.querytest.model.Product;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 import java.util.UUID;
 
+
 public class CassandraProductRepositoryImpl implements CassandraProductRepository<Product, UUID>{
    CassandraProductAdapter<Product, UUID> cassandraProductAdapter;
 
+   @Autowired
    public CassandraProductRepositoryImpl(CassandraProductAdapter<Product, UUID> cassandraProductAdapter) {
        this.cassandraProductAdapter = cassandraProductAdapter;
    }

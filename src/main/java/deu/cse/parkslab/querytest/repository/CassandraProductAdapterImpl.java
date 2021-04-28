@@ -3,7 +3,6 @@ package deu.cse.parkslab.querytest.repository;
 import deu.cse.parkslab.querytest.model.Product;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;

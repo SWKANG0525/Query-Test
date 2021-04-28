@@ -1,0 +1,4 @@
+deu/cse/parkslab/querytest/QuerytestApplicationTests.java
+ deu.cse.parkslab.querytest.QuerytestApplicationTests
+deu/cse/parkslab/querytest/controller/TutorialControllerTest.java
+ deu.cse.parkslab.querytest.controller.TutorialControllerTest
