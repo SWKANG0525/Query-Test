@@ -1,7 +1,8 @@
 package deu.cse.parkslab.querytest.repository;
 
 
-import deu.cse.parkslab.querytest.model.Product;
+
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 

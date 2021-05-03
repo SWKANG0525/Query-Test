@@ -7,18 +7,18 @@ import java.util.List;
 import java.util.UUID;
 
 
-public class CassandraProductRepositoryImpl implements CassandraProductRepository<Product, UUID>{
-   CassandraProductAdapter<Product, UUID> cassandraProductAdapter;
 
-   @Autowired
-   public CassandraProductRepositoryImpl(CassandraProductAdapter<Product, UUID> cassandraProductAdapter) {
-       this.cassandraProductAdapter = cassandraProductAdapter;
-   }
+public class CassandraProductRepositoryImpl implements CassandraProductRepository<Product, UUID>{
+
+
+    @Autowired
+    private CassandraProductAdapter cassandraProductAdapter;
+
 
 
     @Override
     public Product save(Product product) {
-        return cassandraProductAdapter.save(product);
+       return cassandraProductAdapter.save(product);
     }
 
     @Override
