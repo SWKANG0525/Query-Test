@@ -1,13 +1,13 @@
-deu/cse/parkslab/querytest/repository/CassandraProductRepositoryImpl.java
- deu.cse.parkslab.querytest.repository.CassandraProductRepositoryImpl
+deu/cse/parkslab/querytest/util/CassandraK8sIngressAddressTranslator.java
+ deu.cse.parkslab.querytest.util.CassandraK8sIngressAddressTranslator
 deu/cse/parkslab/querytest/service/ProductService.java
  deu.cse.parkslab.querytest.service.ProductService
 deu/cse/parkslab/querytest/config/SpringConfiguration.java
  deu.cse.parkslab.querytest.config.SpringConfiguration
 deu/cse/parkslab/querytest/controller/WebMainController.java
  deu.cse.parkslab.querytest.controller.WebMainController
-deu/cse/parkslab/querytest/util/CassandraK8sIngressAddressTranslator.java
- deu.cse.parkslab.querytest.util.CassandraK8sIngressAddressTranslator
+deu/cse/parkslab/querytest/config/CassandraConfiguration.java
+ deu.cse.parkslab.querytest.config.CassandraConfiguration
 deu/cse/parkslab/querytest/QuerytestApplication.java
  deu.cse.parkslab.querytest.QuerytestApplication
 deu/cse/parkslab/querytest/repository/CassandraProductRepository.java
@@ -24,5 +24,5 @@ deu/cse/parkslab/querytest/model/Product.java
  deu.cse.parkslab.querytest.model.Product
 deu/cse/parkslab/querytest/controller/ProductController.java
  deu.cse.parkslab.querytest.controller.ProductController
-deu/cse/parkslab/querytest/config/CassandraConfiguration.java
- deu.cse.parkslab.querytest.config.CassandraConfiguration
+deu/cse/parkslab/querytest/repository/CassandraProductRepositoryImpl.java
+ deu.cse.parkslab.querytest.repository.CassandraProductRepositoryImpl

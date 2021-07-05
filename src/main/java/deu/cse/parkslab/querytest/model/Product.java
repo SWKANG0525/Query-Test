@@ -18,7 +18,7 @@ public class Product {
     @PrimaryKey
     private UUID id;
     private String productName;
-    private String productPrice;
+    private Integer productPrice;
 
 
 
